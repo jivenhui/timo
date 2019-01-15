@@ -1,13 +1,14 @@
 @font-face {
   font-family: schoolbook;
-  src: url(styles/schoolbookfont/texgyreschola-regular.otf);
+  src: url(styles/schoolbookfont/school.TTF);
 }
 
 @font-face {
   font-family: schoolbook-bold;
-  src: url(styles/schoolbookfont/texgyreschola-bold.otf);
+  src: url(styles/schoolbookfont/schoolBold.TTF);
 }
 
+/* Pane1 */
 #pane1 {
   padding-top: 50px;
   padding-bottom: 200px;
@@ -21,11 +22,25 @@
   margin-right: auto;
 }
 
+.pane1-block {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.pane1-text {
+  color: white;
+  padding-top: 10px;
+  font-size: 40pt;
+  font-family: schoolbook-bold;
+}
+
+/* Pane2 */
 #pane2 {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
+/* Pane3 */
 #pane3 {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -39,31 +54,6 @@
 
 .bg-green {
   background-color: #BDCD00;
-}
-
-.nav-item {
-  padding-right: 25px;
-}
-
-.navbar-brand {
-  padding-right: 25px;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  rgba(255, 255, 255, 1);
-  color: white;
-  font-family: schoolbook-bold;
-  font-size: 14pt;
-}
-
-.pane1-block {
-  width: 40%;
-  margin: 0 auto;
-}
-
-.pane1-text {
-  color: white;
-  font-family: schoolbook-bold;
 }
 
 .pane2-block {
@@ -103,4 +93,21 @@
 
 .pane3-block3 {
 
+}
+
+
+/* navbar */
+.nav-item {
+  padding-right: 25px;
+}
+
+.navbar-brand {
+  padding-right: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  rgba(255, 255, 255, 1);
+  color: white;
+  font-family: schoolbook-bold;
+  font-size: 14pt;
 }
