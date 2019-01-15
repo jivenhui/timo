@@ -1,0 +1,106 @@
+@font-face {
+  font-family: schoolbook;
+  src: url(styles/schoolbookfont/texgyreschola-regular.otf);
+}
+
+@font-face {
+  font-family: schoolbook-bold;
+  src: url(styles/schoolbookfont/texgyreschola-bold.otf);
+}
+
+#pane1 {
+  padding-top: 50px;
+  padding-bottom: 200px;
+  background-color: #BDCD00;
+}
+
+.image-logo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pane2 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#pane3 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../images/pane3.jpg");
+  background-size: auto 100%;
+}
+
+#pane4 {
+  height: 500px;
+}
+
+.bg-green {
+  background-color: #BDCD00;
+}
+
+.nav-item {
+  padding-right: 25px;
+}
+
+.navbar-brand {
+  padding-right: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  rgba(255, 255, 255, 1);
+  color: white;
+  font-family: schoolbook-bold;
+  font-size: 14pt;
+}
+
+.pane1-block {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.pane1-text {
+  color: white;
+  font-family: schoolbook-bold;
+}
+
+.pane2-block {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.pane2-title {
+  color: black;
+  font-family: schoolbook-bold;
+}
+
+.pane2-text {
+  color: black;
+  font-family: schoolbook;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.pane3-blocks {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  margin: 10px;
+}
+
+.pane3-block1 {
+}
+
+.pane3-block2 {
+
+}
+
+.pane3-block3 {
+
+}
