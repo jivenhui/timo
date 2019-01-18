@@ -1,12 +1,4 @@
-@font-face {
-  font-family: schoolbook;
-  src: url(../assets/schoolbookfont/school.TTF);
-}
 
-@font-face {
-  font-family: schoolbook-bold;
-  src: url(../assets/schoolbookfont/schoolBold.TTF);
-}
 
 /* Pane1 */
 #pane1 {
