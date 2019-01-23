@@ -6,30 +6,21 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./recepten.component.css']
 })
 export class ReceptenComponent implements OnInit {
-  slides = [
-    {img: 'src/assets/images/DSC09789.jpg'},
-    {img: 'src/assets/images/DSC09789.jpg'},
-    {img: 'src/assets/images/DSC09789.jpg'},
-    {img: 'src/assets/images/DSC09789.jpg'}
-  ];
+  @Input()
+  recepten
+  @Input()
+  recept
+
+  slideConfig = {'slidesToShow': 4, 'slidesToScroll': 4, visibility: true};
 
   constructor() {
-
   }
 
-  ngOnInit() {
-    this.addSlide();
+  ngOnInit(): void {
+    this.recept = this.recepten[0];
   }
 
-  addSlide() {
-    this.slides.push({img: 'assest/images/logo.png'});
-  }
-
-  removeSlide() {
-    this.slides.length = this.slides.length - 1;
-  }
-
-  afterChange(e) {
-    console.log('afterChange');
+  soepImageClick(recept) {
+    this.recept = recept;
   }
 }
