@@ -1,0 +1,92 @@
+#dropdownGreen1 {
+  background-color: #BDCD00;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  cursor:pointer;
+}
+
+#dropdownGreen1-text {
+  color: white;
+  padding-left: 30px;
+  margin-bottom: 0;
+  text-decoration: none;
+  font-family: schoolbook-bold;
+}
+
+.dropdownGreen1-content {
+  background-color: white;
+}
+
+#dropdownWhite1 {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  cursor:pointer;
+}
+
+#dropdownWhite1-text {
+  color: #BDCD00;
+  padding-left: 30px;
+  margin-bottom: 0;
+  font-family: schoolbook-bold;
+}
+
+#dropdownGreen2 {
+  background-color: #BDCD00;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor:pointer;
+}
+
+#dropdownGreen2-text {
+  color: white;
+  line-height: 40px;
+  padding-left: 30px;
+  margin-bottom: 0;
+  font-family: schoolbook-bold;
+}
+
+#dropdownWhite2 {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor:pointer;
+}
+
+#dropdownWhite2-text {
+  color: #BDCD00;
+  line-height: 40px;
+  padding-left: 30px;
+  margin-bottom: 0;
+  font-family: schoolbook-bold;
+}
+
+.bg-green {
+  background-color: #BDCD00;
+}
+
+.arrow {
+  float: right;
+  width: 20px;
+  position: relative;
+  top: -5px;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+
+.arrow2 {
+  float: right;
+  width: 20px;
+  position: relative;
+  top: -20px;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+
+.carousel {
+  cursor: pointer;
+}
+
+.slide-image-text {
+  color: #BDCD00;
+}

@@ -1,0 +1,54 @@
+<!-- accordion -->
+<div class="accordion" id="recepten">
+  <div id="dropdownGreen1" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+       aria-controls="collapseOne">
+    <h1 id="dropdownGreen1-text" class="headingOne">Sauzen</h1>
+    <img class="arrow" src="../assets/images/Arrow.png"/>
+    <div id="collapseOne" class="collapse dropdownGreen1" aria-labelledby="headingOne" data-parent="#recepten">
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+
+  <div id="dropdownWhite1" (click)="openDrowdoen()" data-toggle="collapse" data-target="#collapseTwo"
+       aria-expanded="false" aria-controls="collapseTwo">
+    <h1 id="dropdownWhite1-text" class="headingTwo">Soepen</h1>
+    <img class="arrow" src="src/assets/images/arrowGreen.png"/>
+  </div>
+  <div id="collapseTwo" class="collapse dropdownGreen1" aria-labelledby="headingTwo" data-parent="#recepten">
+      <!-- You can now use your library component in app.component.html -->
+      <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig" (afterChange)="afterChange($event)">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+          <img (click)="soepImageClick(slide)" src="{{slide.img}}" alt="" width="100%">
+          <h5 class="text-center slide-image-text">{{slide.recept}}</h5>
+        </div>
+      </ngx-slick>
+    <div class="card-body row">
+      <p class="col-md-2" [innerHTML]="recept.ingredienten"></p>
+      <p class="col-md-6" [innerHTML]="recept.bereidingswijze"></p>
+    </div>
+  </div>
+
+  <div id="dropdownGreen2" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+       aria-controls="collapseThree">
+    <h1 id="dropdownGreen2-text" class="headingThree"> Aardappel<br>bereidingen</h1>
+    <img class="arrow2" src="../assets/images/Arrow.png"/>
+    <div id="collapseThree" class="collapse dropdownGreen2" aria-labelledby="headingThree" data-parent="#recepten">
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+
+  <div id="dropdownWhite2" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+       aria-controls="collapseFour">
+    <h1 id="dropdownWhite2-text" class="headingFour">Vega<br>comfort food</h1>
+    <img class="arrow2" src="../assets/images/arrowGreen.png"/>
+    <div id="collapseFour" class="collapse dropdownGreen1" aria-labelledby="headingFour" data-parent="#recepten">
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+</div>

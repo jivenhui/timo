@@ -1,0 +1,20 @@
+/* Pane2 */
+#pane2 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.pane2-block {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.pane2-title {
+  color: black;
+  font-family: schoolbook-bold;
+}
+
+.pane2-text {
+  color: black;
+  font-family: schoolbook;
+}

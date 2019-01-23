@@ -1,0 +1,25 @@
+/* Pane1 */
+#pane1 {
+  padding-top: 50px;
+  padding-bottom: 200px;
+  background-color: #BDCD00;
+}
+
+.image-logo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pane1-block {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.pane1-text {
+  color: white;
+  padding-top: 10px;
+  font-size: 40pt;
+  font-family: schoolbook-bold;
+}

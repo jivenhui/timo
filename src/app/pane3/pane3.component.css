@@ -1,0 +1,33 @@
+/* Pane3 */
+#pane3 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("src/assets/images/pane3.jpg");
+  background-size: auto 100%;
+}
+
+.pane3-blocks {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  margin: 10px;
+  cursor:pointer;
+}
+
+.pane3-blocks {
+  background-color: #BDCD00;
+}
+
+.pane3-images {
+  max-width:100%;
+  max-height:100%;
+  display:block;
+  margin:auto;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
