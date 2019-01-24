@@ -18,7 +18,7 @@ export class DropdownComponent implements OnInit {
             this.isCollapsed = true;
             this.soepRecepten = [
                 {
-                    img: 'src/assets/images/recepten/soepen/marokkaanse-tomaten-soep.jpg',
+                    img: '../assets/images/recepten/soepen/marokkaanse-tomaten-soep.jpg',
                     recept: 'Marokkaanse pompoensoep',
                     ingredienten:
                         '<b>Ingrediënten:</b><br><br>\n' +
@@ -33,7 +33,7 @@ export class DropdownComponent implements OnInit {
                         'Warm de oven voor op 200C, verdeel de pompoen over een bakplaat en rooster voor 15 minuten. Verwarm in een pan een scheutje olijfolie en voeg de ras el hanout en de gember toe en fruit voor 5 minuten. Voeg de bouillon, de pompoen en de kokosmelk toe en pureer tot een gladde massa met een blender of staafmixer. Serveer met pita of naanbrood\n'
                 },
                 {
-                    img: 'src/assets/images/recepten/soepen/finse-knoflooksoep.png',
+                    img: '../assets/images/recepten/soepen/finse-knoflooksoep.png',
                     recept: 'Finse knoflooksoep ',
                     ingredienten:
                         '<b>Ingrediënten:</b><br><br>\n' +
@@ -47,7 +47,7 @@ export class DropdownComponent implements OnInit {
                     bereidingswijze: '<b>Bereidingswijze:</b><br><br>\n' +
                         'Warm de oven voor op 200C, snijd het brood in blokjes en meng met wat olijfolie en de tijm, rooster voor 15 min of tot ze goudbruin zijn. Schil en snijd ondertussen de aardappel in blokjes en doe dit samen met de bouillon in een pan, voeg de knoflook toe en kook tot de aardappel gaar is. Voeg de room toe en pureer de soep glad met een blender. Breng op smaak met zout, peper en de croutons.\n'
                 },
-                {img: 'src/assets/images/recepten/soepen/thaise-curry-soep.png',
+                {img: '../assets/images/recepten/soepen/thaise-curry-soep.png',
                     recept: 'Thaise curry soep',
                     ingredienten:
                         '<b>Ingrediënten:</b><br><br>\n' +
@@ -62,7 +62,7 @@ export class DropdownComponent implements OnInit {
                     bereidingswijze: '<b>Bereidingswijze:</b><br><br>\n' +
                         'Fruit de knoflook, gember, citroengras en Tikka masala in een pan voor 5 minuten op laag vuur, voeg de bouillon en kokosmelk toe en pureer met een blender, kook apart de noedels volgens de gebruiksaanwijzing. Serveer de soep met de noedels, de taugé en een kwart limoen.\n'
                 },
-                {img: 'src/assets/images/recepten/soepen/med-tomaten-soep.png',
+                {img: '../assets/images/recepten/soepen/med-tomaten-soep.png',
                     recept: 'Geroosterde Italiaanse tomatensoep ',
                     ingredienten:
                         '<b>Ingrediënten:</b><br><br>\n' +
