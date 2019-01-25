@@ -18,7 +18,7 @@ export class Recepten3Component implements OnChanges {
 
     async ngOnChanges() {
         if (this.isCollapsed = true) {
-            await this.delay(300);
+            await this.delay(10);
             this.vegaGerechten = [
                 {
                     img: '../../assets/images/recepten/vega/Bloemkool-nuggets.png',

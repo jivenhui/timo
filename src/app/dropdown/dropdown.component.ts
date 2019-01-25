@@ -15,7 +15,6 @@ export class DropdownComponent implements OnInit {
     }
 
     openDropdownSauzen() {
-        window.dispatchEvent(new Event('resize'));
         if (!this.isCollapsedSauzen) {
             this.isCollapsedSauzen = true;
         }
@@ -23,17 +22,21 @@ export class DropdownComponent implements OnInit {
 
 
     openDropdownSoepen() {
-        window.dispatchEvent(new Event('resize'));
-
         if (!this.isCollapsedSoepen) {
             this.isCollapsedSoepen = true;
         }
     }
 
     openDropdownVega() {
-        window.dispatchEvent(new Event('resize'));
         if (!this.isCollapsedVega) {
             this.isCollapsedVega = true;
+
+        }
+    }
+
+    openDropdownAardappel() {
+        if (!this.isCollapsedAardappel) {
+            this.isCollapsedAardappel = true;
 
         }
     }

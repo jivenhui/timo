@@ -17,7 +17,7 @@ export class SauzenComponent implements OnChanges {
 
   async ngOnChanges() {
     if (this.isCollapsed = true) {
-      await this.delay(300);
+      await this.delay(10);
     this.SausRecepten = [
       {
         img: 'assets/images/recepten/sauzen/basilicum-mayo.png',

@@ -17,7 +17,7 @@ export class AardappelComponent implements OnChanges {
 
   async ngOnChanges() {
     if (this.isCollapsed = true) {
-      await this.delay(500);
+      await this.delay(10);
       this.aardappelRecepten = [
         {
           img: '../../assets/images/recepten/aardappel/Aardappel-olijven.png',

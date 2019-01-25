@@ -17,7 +17,7 @@ export class ReceptenComponent implements OnChanges {
 
     async ngOnChanges() {
         if (this.isCollapsed = true) {
-            await this.delay(500);
+            await this.delay(10);
             this.soepRecepten = [
                 {
                     img: '../../assets/images/recepten/soepen/marokkaanse-tomaten-soep.jpg',
