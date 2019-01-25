@@ -10,6 +10,10 @@ import { Pane4Component } from './pane4/pane4.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { ReceptenComponent } from './dropdown/recepten/recepten.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { Recepten3Component } from './dropdown/recepten3/recepten3.component';
+import { SauzenComponent } from './dropdown/sauzen/sauzen.component';
+import {LazyLoadImagesModule} from 'ngx-lazy-load-images';
+import { AardappelComponent } from './dropdown/aardappel/aardappel.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +23,16 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     Pane3Component,
     Pane4Component,
     DropdownComponent,
-    ReceptenComponent
+    ReceptenComponent,
+    Recepten3Component,
+    SauzenComponent,
+    AardappelComponent
   ],
   imports: [
     BrowserModule,
     SlickModule.forRoot(),
-    NgbModule
+    NgbModule,
+    LazyLoadImagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,13 +1,13 @@
 <!-- accordion -->
 <div class="accordion" id="recepten">
     <div>
-        <div id="dropdownGreen1" (click)="openDropdownSoepen()" data-toggle="collapse" data-target="#collapseOne"
+        <div id="dropdownGreen1" (click)="openDropdownSauzen()" data-toggle="collapse" data-target="#collapseOne"
              aria-expanded="false" aria-controls="collapseOne">
             <h1 id="dropdownGreen1-text" class="headingOne">Sauzen</h1>
             <img class="arrow" src="../assets/images/Arrow.png"/>
         </div>
-        <div id="collapseOne" class="collapse dropdownGreen1" aria-labelledby="headingTwo" data-parent="#recepten">
-            <bresc-recepten [recept]="soepRecepten[0]" [recepten]="soepRecepten"></bresc-recepten>
+        <div id="collapseOne" class="collapse dropdownGreen1" aria-labelledby="headingTwo" data-parent="#collapseOne">
+            <bresc-sauzen [isCollapsed]="isCollapsedSauzen"></bresc-sauzen>
         </div>
     </div>
 
@@ -17,8 +17,8 @@
             <h1 id="dropdownWhite1-text" class="headingTwo">Soepen</h1>
             <img class="arrow" src="../assets/images/arrowGreen.png"/>
         </div>
-        <div id="collapseTwo" class="collapse dropdownGreen1" aria-labelledby="headingTwo" data-parent="#recepten">
-            <bresc-recepten [recept]="soepRecepten[0]" [recepten]="soepRecepten"></bresc-recepten>
+        <div id="collapseTwo" class="collapse dropdownGreen1" aria-labelledby="headingTwo" data-parent="#dropdownWhite1">
+            <bresc-recepten [isCollapsed]="isCollapsedSoepen"></bresc-recepten>
         </div>
     </div>
 
@@ -29,18 +29,18 @@
             <img class="arrow2" src="../assets/images/Arrow.png"/>
         </div>
         <div id="collapseThree" class="collapse dropdownGreen1" aria-labelledby="headingTwo" data-parent="#recepten">
-            <bresc-recepten [recept]="soepRecepten[0]" [recepten]="soepRecepten"></bresc-recepten>
+            <bresc-aardappel [isCollapsed]="isCollapsedAardappel"></bresc-aardappel>
         </div>
     </div>
 
     <div>
-        <div id="dropdownWhite2" (click)="openDropdownSoepen()" data-toggle="collapse" data-target="#collapseFour"
+        <div id="dropdownWhite2" (click)="openDropdownVega()" data-toggle="collapse" data-target="#collapseFour"
              aria-expanded="false" aria-controls="collapseFour">
             <h1 id="dropdownWhite2-text" class="headingFour">Vega<br>comfort food</h1>
             <img class="arrow2" src="../assets/images/arrowGreen.png"/>
         </div>
-        <div id="collapseFour" class="collapse dropdownGreen1" aria-labelledby="headingTwo" data-parent="#recepten">
-            <bresc-recepten [recept]="soepRecepten[0]" [recepten]="soepRecepten"></bresc-recepten>
+        <div id="collapseFour" class="collapse dropdownGreen1" aria-labelledby="headingTwo" data-parent="#collapseFour">
+            <bresc-recepten3 [isCollapsed]="isCollapsedVega"></bresc-recepten3>
         </div>
     </div>
 

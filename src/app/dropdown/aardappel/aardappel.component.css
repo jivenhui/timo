@@ -1,0 +1,14 @@
+
+.carousel {
+    cursor: pointer;
+}
+
+.slide-image-text {
+    color: #BDCD00;
+}
+
+.recept-image:hover {
+    opacity:0.5;
+    background-color: Black;
+    z-index:10;
+}

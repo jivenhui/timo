@@ -14,3 +14,10 @@
   width: 50%;
   margin: 0 auto;
 }
+
+.image-logo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

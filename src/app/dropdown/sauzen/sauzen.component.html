@@ -1,0 +1,11 @@
+<!-- You can now use your library component in app.component.html -->
+<ngx-slick class="carouse1" #slickModal="slick-modal" [config]="slideConfig">
+  <div ngxSlickItem *ngFor="let saus of SausRecepten" class="slide">
+    <img class="recept-image" (click)="imageClick(saus)" src="{{saus.img}}" width="100%">
+    <h5 class="text-center slide-image-text">{{saus.recept}}</h5>
+  </div>
+</ngx-slick>
+<div class="card-body row">
+  <p class="col-md-2" [innerHTML]="saus.ingredienten"></p>
+  <p class="col-md-6" [innerHTML]="saus.bereidingswijze"></p>
+</div>
