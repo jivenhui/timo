@@ -14,6 +14,10 @@ import { Recepten3Component } from './dropdown/recepten3/recepten3.component';
 import { SauzenComponent } from './dropdown/sauzen/sauzen.component';
 import {LazyLoadImagesModule} from 'ngx-lazy-load-images';
 import { AardappelComponent } from './dropdown/aardappel/aardappel.component';
+import { Pane5Component } from './pane5/pane5.component';
+import { Dropdown2Component } from './pane5/dropdown2/dropdown2.component';
+import { TrendsComponent } from './pane5/dropdown2/trends/trends.component';
+import { PaperComponent } from './pane5/dropdown2/paper/paper.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { AardappelComponent } from './dropdown/aardappel/aardappel.component';
     ReceptenComponent,
     Recepten3Component,
     SauzenComponent,
-    AardappelComponent
+    AardappelComponent,
+    Pane5Component,
+    Dropdown2Component,
+    TrendsComponent,
+    PaperComponent
   ],
   imports: [
     BrowserModule,

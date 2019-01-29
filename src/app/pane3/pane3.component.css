@@ -3,7 +3,7 @@
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: url("src/assets/images/pane3.jpg");
-  background-size: auto 100%;
+  background-size: 100% 100%;
 }
 
 .pane3-blocks {
@@ -30,4 +30,7 @@
   display: flex;
   justify-content: center;
   flex-shrink: 0;
+}
+html {
+  height: 100%
 }

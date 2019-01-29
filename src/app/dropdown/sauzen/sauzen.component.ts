@@ -7,7 +7,7 @@ import {Component, Input, OnInit, DoCheck, AfterContentInit, OnChanges} from '@a
 })
 export class SauzenComponent implements OnChanges {
   SausRecepten = [];
-  saus;
+  saus = {ingredienten: '', bereidingswijze: ''};
   @Input()
   isCollapsed;
   slideConfig = {'slidesToShow': 3, 'slidesToScroll': 3, visibility: true};

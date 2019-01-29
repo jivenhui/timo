@@ -7,7 +7,7 @@ import {Component, Input, OnChanges, OnInit} from '@angular/core';
 })
 export class Recepten3Component implements OnChanges {
     vegaGerechten = [];
-    recept1;
+    recept = {ingredienten: '', bereidingswijze: ''};
     @Input()
     isCollapsed
 
@@ -76,13 +76,13 @@ export class Recepten3Component implements OnChanges {
                         'Snij de komkommer in dunne plakken en meng in een kom met 100 ml van de sushiazijn, laat dit minsten 20 min staan. Kook de noodles volgens gebruiksaanwijzing giet goed af en bewaar tot nodig. Pak een wokpan en voeg de olie toe, op middelhoog vuur bak de WOKlook en de helft van de bosui. Voeg de bouillon, sojasaus, ketchup, 10 ml sushiazijn, sriracha, suiker en maizena toe en meng. Kook dit mengsel tot een goede sausdikte. Voeg de noodles toe en verhit voor nog een minuut. Garneer met de gepekelde komkommer en de pinda’s.\n'
                 }
             ];
-            this.recept1 = this.vegaGerechten[0];
+            this.recept = this.vegaGerechten[0];
             window.dispatchEvent(new Event('resize'));
         }
     }
 
     imageClick(recept1) {
-        this.recept1 = recept1;
+        this.recept = recept1;
     }
 
     async delay(ms: number) {

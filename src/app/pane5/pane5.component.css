@@ -1,0 +1,23 @@
+#pane4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pane4-text {
+    color: #BDCD00;
+    padding-top: 10px;
+    font-size: 40pt;
+    font-family: schoolbook-bold;
+}
+
+.pane4-block {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image-logo {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

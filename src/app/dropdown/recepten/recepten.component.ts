@@ -7,7 +7,7 @@ import {Component, Input, OnChanges, OnInit} from '@angular/core';
 })
 export class ReceptenComponent implements OnChanges {
     soepRecepten = [];
-    recept;
+    recept = {ingredienten: '', bereidingswijze: ''}
     @Input()
     isCollapsed;
     slideConfig = {'slidesToShow': 4, 'slidesToScroll': 3, visibility: true};
