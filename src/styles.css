@@ -8,3 +8,9 @@
   font-family: schoolbook-bold;
   src: url(/assets/schoolbookfont/schoolBold.ttf);
 }
+
+
+@font-face {
+  font-family: roman-titel;
+  src: url(/assets/schoolbookfont/Pistilli-Roman.otf);
+}
